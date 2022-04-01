@@ -32,7 +32,7 @@ const data = {
 
 const chart = fc
     .chartCartesian(d3.scaleBand(), d3.scaleLinear())
-    .chartLabel('2015 Cumulative Sales')
+    .chartLabel('2022 Cumulative Sales')
     .xDomain(data.sales.map(d => d.month))
     .yDomain(yExtent(data.sales))
     .xPadding(0.2)

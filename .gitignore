@@ -1,3 +1,7 @@
 node_modules
 *.code-workspace
 .vscode
+.husky
+.vscode
+tests
+

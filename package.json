@@ -2,9 +2,10 @@
   "name": "d3fc-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "xv src"
+    "start": "http-server -o",
+    "test": "xv tests"
   },
   "repository": {
     "type": "git",
