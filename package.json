@@ -1,0 +1,33 @@
+{
+  "name": "d3fc-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "xv src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modster/d3fc-template.git"
+  },
+  "keywords": [],
+  "author": "E.M. Greeff <emgreeff@datadrivendashboards.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modster/d3fc-template/issues"
+  },
+  "homepage": "https://github.com/modster/d3fc-template#readme",
+  "dependencies": {
+    "d3": "^7.4.0",
+    "d3fc": "^15.2.4",
+    "mockdate": "^3.0.5",
+    "seedrandom": "^3.0.5"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "xv": "^1.1.1"
+  },
+  "files": [
+    "*.test.js"
+  ]
+}
