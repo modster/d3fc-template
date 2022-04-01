@@ -1,8 +1,8 @@
 // src/add.test.js
-import { strict as assert } from 'assert'
-import add from './add.js'
+const assert = require('assert');
+const add = require('./add.js');
 
 // This is plain Node code, there's no xv API
-export function testAdd() {
+const testAdd = () => {
     assert.equal(add(1, 2), 3)
-}
+};
